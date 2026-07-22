@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@font-face{
+   font-family: 'Ethnocentric';
+   src: url(Ethnocentric-Regular.otf) format('opentype');
+   font-weight: normal;
+}
+:root{
+    --fonte-titulo: 'Ethnocentric', cursive;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #023859, #03588C);
+}
+p{
+    text-align: justify ;
+}
+h1{
+    font-weight: bold;
+    padding: 5px;
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    color: white;
+}
+main>p>a{
+    border-radius: 3px;
+    text-decoration: none;
+    color: #038a0e;
+}
+main>p>a:hover{
+    transition-duration: 0.5s;
+    color: #83D95B;
+    background-color: #264119;
+    text-decoration: underline;
+}
+header>p{
+    padding: 10px;
+    color: white;
+}
+header{
+    border-radius: 3px;
+    background-image: linear-gradient(to bottom, #0086da, #014785);
+    margin: 10px;
+    padding: 10px;
+}
+main{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    max-width: 1500px;
+}
+div{
+    display: inline-block;
+    background-image: linear-gradient(to right, #00325D, #014785);
+     height: 200px;
+    min-width: 438px;
+    max-width: 1000px;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+}
+div>a{
+    color: white;
+    text-decoration: none;
+}
+div>a:hover{
+        color:#C6D936;
+        text-decoration: underline;
+}
+.creditos{
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.creditos>a{
+    color: rgb(88, 86, 241);
+    text-decoration: none;
+}
+.creditos>a:hover{
+    color: #C6D936;
+    text-decoration: underline;
+}
+footer{
+    background-image: linear-gradient(to right, #031629, #0086da);
+    color: white;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 10px;
+    padding: 10px;
+}
+footer>ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+footer>ul>li>a:hover{
+    text-decoration: underline;
+    color: red;
+}

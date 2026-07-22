@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.root{
+    --fonte-titulo: 'Montserrat', cursive;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #022601, #83D95B);
+}
+h1{
+    font-family: 'Montserrat', cursive;
+    color: white;
+    text-align: center;
+}
+header{
+    background-image: linear-gradient(to top, #224625, #6ce035);
+    color: rgb(0, 43, 0);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+header>p{
+    padding: 10px;
+    color: white;
+}
+main{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+main>img{
+    display: inline-block;
+}
+
+div{
+    background-image: linear-gradient(to right, #3c7940, #9eff71);
+    text-align: center;
+    border-style: dashed;
+    display: inline-block;
+     height: 100px;
+     margin: auto;
+    min-width: 391px;
+    max-width: 100px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 20px;
+}
+.suspensao .freio .direcao .troca-oleo{
+    color: white;
+}
+.motivo{
+    list-style: none;
+}
+.motivo>li::before{
+    content: "✅";
+}
+.contato>li{
+    list-style: none;
+}
+.contato>li>.whatsapp::before{
+    content: "📱";
+}
+.contato>li>a{
+    text-decoration: none;
+    color: #0596A6;
+}
+.contato>li>a:hover{
+    text-decoration: underline;
+    color: #002529;
+}
+.contato>li>.email::before{
+    content: "📧";
+}
+footer{
+    border-radius: 5px;
+    background: white;
+    min-width: 350px;
+    max-width: 1000px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.creditos{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.creditos>a{
+    color: #83D95B;
+    text-decoration: none;
+}
+.creditos>a:hover{
+    color: #92b681;
+    text-decoration: underline;
+}
+img{
+    margin: 10px;
+    padding: 10px;
+}
