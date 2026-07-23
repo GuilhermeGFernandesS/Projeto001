@@ -65,7 +65,7 @@ main{
     max-width: 1500px;
 }
 div{
-    font-size: small;
+    font-size: normal;
     display: inline-block;
     background-image: linear-gradient(to right, #00325D, #014785);
     height: 200px;
