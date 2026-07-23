@@ -48,8 +48,9 @@ div{
     padding: 20px;
 }
 .localizacao{
+    background-image: linear-gradient(to left, #04fc10, #103101);
     text-decoration: none;
-    color: #002241;
+    color: white;
     margin: 5px;
     padding: 5px;
 }
@@ -75,7 +76,7 @@ div{
     content: "📱";
 }
 .whatsapp{
-    background-color: white;
+    background-color: #022601;
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
@@ -86,7 +87,7 @@ div{
 }
 .contato>li>a:hover{
     text-decoration: underline;
-    color: #002529;
+    color: #00e5ff;
 }
 footer{
     color: white;

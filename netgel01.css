@@ -36,15 +36,16 @@ main>p>.oficina:hover{
 }
 .localizacao{
     text-decoration: none;
-    color: #002241;
+    color: white;
+    background-image: linear-gradient(to right, #000e1b, #002a44);
     margin: 5px;
     padding: 5px;
 }
 .localizacao:hover{
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 3px;
     transition-duration: 0.5s;
-    background-image: linear-gradient(to right, #002241, #30b0ff);
+    background-image: linear-gradient(to left, #0084ff, #003353);
 }
 header>p{
     padding: 10px;
@@ -75,15 +76,26 @@ div{
     color: white;
     margin: 10px;
     padding: 10px;
+    box-shadow: 0px 0px 2pxpx 1px black;
+}
+div>a>.agendar{
+    background-image: linear-gradient(to right, #000f1b, #285a86);
+    color: black;
+    background-color: white;
+    width: 300px;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 0px 0px 2px black;
 }
 div>h3{
-    font-size: normal;
+    text-align: center;
 }
 div>a{
     color: white;
     text-decoration: none;
 }
-div>a:hover{
+div>a>.agendar:hover{
         color:#C6D936;
         text-decoration: underline;
 }
