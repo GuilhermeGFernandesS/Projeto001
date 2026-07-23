@@ -1,8 +1,10 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 .root{
     --fonte-titulo: 'Montserrat', cursive;
+    --font-conteudo: 'Roboto', cursive;
 }
 
 body{
@@ -10,7 +12,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, #022601, #83D95B);
 }
-h1{
+.titulo-principal{
     font-family: 'Montserrat', cursive;
     color: white;
     text-align: center;
@@ -37,14 +39,25 @@ div{
     text-align: center;
     border-style: dashed;
     display: inline-block;
-     height: 100px;
-     margin: auto;
+    height: 100px;
     min-width: 369px;
     max-width: 1000px;
     border-radius: 10px;
     color: rgb(0, 0, 0);
     margin: 10px;
     padding: 20px;
+}
+.localizacao{
+    text-decoration: none;
+    color: #002241;
+    margin: 5px;
+    padding: 5px;
+}
+.localizacao:hover{
+    color: white;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+    background-image: linear-gradient(to right, #142715, #97ff66);
 }
 .suspensao .freio .direcao .troca-oleo{
     color: white;
@@ -61,6 +74,12 @@ div{
 .contato>li>.whatsapp::before{
     content: "📱";
 }
+.whatsapp{
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
 .contato>li>a{
     text-decoration: none;
     color: #0596A6;
@@ -69,12 +88,10 @@ div{
     text-decoration: underline;
     color: #002529;
 }
-.contato>li>.email::before{
-    content: "📧";
-}
 footer{
+    color: white;
     border-radius: 5px;
-    background: white;
+    background-image: linear-gradient(to right, #1e461d, #bcff9d);
     min-width: 300px;
     max-width: 800px;
     margin: 10px;

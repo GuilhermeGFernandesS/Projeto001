@@ -23,16 +23,28 @@ h1{
     text-align: center;
     color: white;
 }
-main>p>a{
+main>p>.oficina{
     border-radius: 3px;
     text-decoration: none;
     color: #038a0e;
 }
-main>p>a:hover{
+main>p>.oficina:hover{
     transition-duration: 0.5s;
     color: #83D95B;
     background-color: #264119;
     text-decoration: underline;
+}
+.localizacao{
+    text-decoration: none;
+    color: #002241;
+    margin: 5px;
+    padding: 5px;
+}
+.localizacao:hover{
+    color: white;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+    background-image: linear-gradient(to right, #002241, #30b0ff);
 }
 header>p{
     padding: 10px;
@@ -55,13 +67,13 @@ main{
 div{
     display: inline-block;
     background-image: linear-gradient(to right, #00325D, #014785);
-     height: 200px;
+    height: 200px;
     min-width: 380px;
-    max-width: 1500px;
+    max-width: 700px;
     border-radius: 10px;
     color: white;
-    margin: 10px;
-    padding: 20px;
+    margin: 42px;
+    padding: 17px;
 }
 div>a{
     color: white;
@@ -70,6 +82,9 @@ div>a{
 div>a:hover{
         color:#C6D936;
         text-decoration: underline;
+}
+.contato>.instagram>img{
+    color:white;
 }
 .creditos{
     background-color: black;
@@ -93,11 +108,21 @@ footer{
     margin: 10px;
     padding: 10px;
 }
+footer>ul{
+    list-style: none;
+}
+footer>ul>li>img{
+    padding: 0px;
+}
 footer>ul>li>a{
-    color: white;
+    padding: 2px;
+    color: rgb(113, 163, 255);
     text-decoration: none;
 }
 footer>ul>li>a:hover{
+    transition-duration: 0.5s;
+    border-radius: 2px;
+    background-color: rgb(0, 68, 255);
     text-decoration: underline;
-    color: red;
+    color: #C6D936;
 }
