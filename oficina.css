@@ -40,7 +40,7 @@ div{
     border-style: dashed;
     display: inline-block;
     height: 100px;
-    min-width: 320px;
+    min-width: 250px;
     max-width: 1000px;
     border-radius: 10px;
     color: rgb(0, 0, 0);
